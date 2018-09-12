@@ -1,0 +1,359 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  padding:10px;
+  padding-bottom:60px; 
+}
+
+header {
+	padding: 10px 10px ;
+}
+
+header #login-form {
+	float: right;
+	font-size: 14px;
+	padding-top: 60px;
+}
+
+#login-form form fieldset {
+	border: 0;
+	margin: 0;
+}
+
+#login-form form label {
+	width: 200px;
+	margin: 0 8px;
+	display: inline-block;
+	text-align: right;
+
+}
+
+
+
+header #login-form input[type=submit] {
+	float: right;
+	margin: 0 4px;
+	padding: 5px 15px;
+  
+
+	border: 0;
+}
+
+
+
+header #login-form input {
+	padding: 2px;
+	margin: 3px 0;
+}
+
+
+.right {
+	float: right;
+	padding-right: 8px ; 
+
+}
+
+
+#registration_form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#registration_form input[type=submit] {
+    width: 100%;
+    background-color: #ff9900;
+    color: grey;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#registration_form input[type=submit]:hover {
+    background-color: #cc7a00;
+}
+
+#registration_form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+nav ul li form {
+	line-height: 40px;
+	float:right;
+	
+}
+
+#sell_form #long-field input {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size:15px;
+}
+
+#sell_form #short-field input {
+	 padding: 10px 5px;
+	 margin: 8px 0;
+	 
+	 border: 1px solid #ccc;
+	 border-radius: 4px;
+	 box-sizing: border-box;
+	 font-size:15px;
+	 width:40px;
+
+}
+
+#sell_form input[type=submit] {
+    width: 100%;
+    background-color: #ff9900;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#sell_form input[type=submit]:hover {
+	background-color: #cc7a00;
+}
+
+#sell_form {
+	border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+}
+
+
+
+#carousel {
+    width: 100%;
+    height: 200px;
+    
+    overflow: visible;
+    white-space:nowrap;
+    padding: 10px;
+}
+
+#carousel .slide {
+    display: inline-block;
+}
+
+
+.slide {
+  padding: 5px;
+}
+
+
+
+
+
+
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  
+  height: 100%%;
+  max-height: 200px;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.9); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+
+#container {
+
+min-height: 100%;
+position: relative;
+}
+
+/*
+footer {
+   position: absolute;
+   
+   width:100%;
+   height:100px;  
+   background:#6cf;
+   clear: both;
+   bottom: 0;
+}*/
+
+
+footer {
+  position: absolute;
+  font-size: 12px;
+  
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0rem;
+  background-color: grey; 
+  color: white;
+  text-align: center;
+}
+
+
+#single-line {
+/*  border: 3px solid #73AD21;*/
+  overflow:auto;
+  margin-left:auto;
+margin-right:auto;
+ position:relative;
+
+
+}
+
+#item-image {
+  padding-top: 20px;
+  width: 30%;
+  margin-left: 0;
+
+  
+
+}
+
+#item-image img{
+   margin-left: auto;
+   margin-right: auto;
+   height: 100%;
+
+
+}
+
+#detail {
+
+ /* border: 3px solid #73AD21;*/
+  width: 70%;
+  text-align: left;
+  float:right;
+  
+}
+
+
+
+/* Highlights row in results */
+
+table#results {
+    border-collapse: collapse;   
+}
+#results tr {
+    background-color: #eee;
+    border-top: 1px solid #fff;
+}
+#results tr:hover {
+    background-color: #ccc;
+}
+#results th {
+    background-color: #fff;
+}
+#results th, #results td {
+    padding: 3px 5px;
+}
+#results td:hover {
+    cursor: pointer;
+}
+
+
+
+
+/* HC changes */
+#dashboard tr th {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+#dashboard tr {
+  background-color: #eee;
+}
+
+#dashboard tr td {
+  padding: 2em;
+}
+
+#dashboard tr:hover {
+  background-color: #ddd;
+}
+
+#dashboard {
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+#dashboard tr td a[href^="remove"]:link {
+  text-decoration: none;
+  color: #eee;
+  background-color: #666;
+  padding: 8px 16px;
+}
+
+#dashboard tr td a[href^="remove"]:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+#dashboard tr td a[href^="remove"]:active {
+  background-color: #683f3a;
+}
+
+#results tr td {
+  padding: 20px;
+}
+
+#help {
+  margin-bottom: 4em;
+}
+
+
+
